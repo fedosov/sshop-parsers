@@ -1,0 +1,47 @@
+<div class="swatches hidden">
+					<ul>
+						
+							<li class="swatch swatch01">
+								<a class="swatch-link" href="/webapp/wcs/stores/servlet/ProductDisplay?catalogId=10201&amp;storeId=11205&amp;langId=-1&amp;categoryId=83085&amp;parentCategoryId=83085&amp;topCategoryId=12552&amp;productId=990319&amp;seq=01&newCheckout=false&editItem=true" style="background-image:url('//anf.scene7.com/is/image/anf/hol_56694_sw');">
+									<span>Blue</span>
+								</a>
+							</li>
+						
+							<li class="swatch swatch02">
+								<a class="swatch-link" href="/webapp/wcs/stores/servlet/ProductDisplay?catalogId=10201&amp;storeId=11205&amp;langId=-1&amp;categoryId=83085&amp;parentCategoryId=83085&amp;topCategoryId=12552&amp;productId=990319&amp;seq=02&newCheckout=false&editItem=true" style="background-image:url('//anf.scene7.com/is/image/anf/hol_56694_sw');">
+									<span>Dark Turquoise</span>
+								</a>
+							</li>
+
+--------------------------------------------------------
+
+<div class="image-wrap " id="56694_04"> 
+			<a href="#">
+				
+						<img class="prod-img" data-s7-preset="holProduct" src="//anf.scene7.com/is/image/anf/hol_56694_04_prod1?$holProduct$" alt="Girls Hollister Classic Yoga Pants" data-mimic-brand=""/>
+
+
+--------------------------------------------------------
+
+<div class="data">
+						<input type="hidden" name="storeId" value="11205"/>
+							<input type="hidden" name="catalogId" value="10201"/>
+							<input type="hidden" name="langId" value="-1"/>
+							<input type="hidden" name="URL" value="/webapp/wcs/stores/servlet/ProductDisplay?catalogId=10201&amp;storeId=11205&amp;langId=-1&amp;categoryId=83085&amp;parentCategoryId=83085&amp;topCategoryId=12552&amp;productId=990319"/>
+							<input type="hidden" name="collection" value="56694"/>
+							<input type="hidden" name="price" value="$34.50"/>
+							<input type="hidden" name="promoPrice" value=""/>
+							<input type="hidden" name="priceFlag" value="1"/>
+							<input type="hidden" name="name" value="Hollister Classic Yoga Pants"/>
+							<input type="hidden" name="color" value="Dark Pink"/>
+							<input type="hidden" name="productId" value="990319"/>
+							<input type="hidden" name="catId" value="83085"/>
+							<input type="hidden" name="cseq" value="04"/>
+							<input type="hidden" name="longSku" value="347-572-0100-062"/>
+							<input type="hidden" name="newCheckout" value=""/>
+							<input type="hidden" name="editItem" value=""/>
+							<input type="hidden" name="partNumberForEdit" value=""/>
+							<input type="hidden" name="comment" value="Bettys > Yoga" />
+							<input type="hidden" name="addressId" value=""/>
+							<input type="hidden" name="orderId" value=""/>
+							<ul>
