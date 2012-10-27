@@ -46,8 +46,8 @@ class HollistercoComSpider(CrawlSpider):
 				print "-" * 50
 				for i in xrange(1, images_count + 1):
 					image_src_small = re.sub(r"_(\d+)_prod", "_%02d_prod" % i, base_image_src)
-					print image_src_small
-					item['image_urls'].append(image_src_small)
+#					print image_src_small
+#					item['image_urls'].append(image_src_small)
 					image_src_big = "%sS7Zoom$&scl=3.0" % image_src_small[:-1]
 					print image_src_big
 					item['image_urls'].append(image_src_big)
