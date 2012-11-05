@@ -15,3 +15,5 @@ dist/
 nosetests.xml
 media/
 tmp/
+clothes/clothes/mined/
+clothes/clothes/mined_img/

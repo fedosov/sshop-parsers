@@ -9,7 +9,7 @@ from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
 
 class HollistercoComSpider(CrawlSpider):
 	name = "hollisterco_com"
-	allowed_domains = ["www.hollisterco.com"]
+	allowed_domains = ["www.hollisterco.com", "eu.hollisterco.com", "us.hollisterco.com", "uk.hollisterco.com"]
 	# Example category
 	start_urls = [
 		#"http://www.hollisterco.com",
