@@ -4,7 +4,6 @@ __AUTHOR__ = 'Mikhail Fedosov (tbs.micle@gmail.com)'
 import os
 
 BOT_NAME = 'Google'
-BOT_VERSION = '1.0'
 
 SPIDER_MODULES = ['clothes.spiders']
 NEWSPIDER_MODULE = 'clothes.spiders'
@@ -12,7 +11,7 @@ NEWSPIDER_MODULE = 'clothes.spiders'
 # Settings
 COOKIES_ENABLED = False
 RANDOMIZE_DOWNLOAD_DELAY = True
-CONCURRENT_REQUESTS_PER_DOMAIN = 40
+CONCURRENT_REQUESTS_PER_DOMAIN = 1
 LOG_LEVEL = 'INFO'
 
 DOWNLOADER_MIDDLEWARES = {
@@ -37,6 +36,6 @@ EXTENSIONS = {
 }
 
 # DEBUG
-#CLOSESPIDER_ITEMCOUNT = 1
+# CLOSESPIDER_ITEMCOUNT = 1
 
 IMAGES_STORE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "mined_img")
