@@ -15,14 +15,14 @@ dir_mined = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file_
 class ClothesPipeline(object):
 	def process_item(self, item, spider):
 		subpath = os.path.sep.join(item['breadcrumbs'].split(" > "))
-		path = os.path.join(dir_mined, subpath, "%s - %s" % (item['price'], item['title']))
+		path = os.path.join(dir_mined, subpath, item['price'])
 		try:
 			os.makedirs(path)
 		except OSError:
 			# path already exists
 			pass
 		for i, image in enumerate(item['images']):
-			shutil.copyfile(os.path.join(IMAGES_STORE, image['path']), os.path.join(path, "%04i%s" % (i, os.path.splitext(image['path'])[1])))
+			shutil.copyfile(os.path.join(IMAGES_STORE, image['path']), os.path.join(path, "%s-%04i%s" % (item['title'], i, os.path.splitext(image['path'])[1])))
 		return item
 
 class ClothesImagesPipeline(ImagesPipeline):
