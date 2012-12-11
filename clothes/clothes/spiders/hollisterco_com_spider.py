@@ -48,7 +48,9 @@ class HollistercoComSpider(CrawlSpider):
 			item['price'] = ("".join(data_form.select('.//input[@name="price"]/@value').extract())).replace("&nbsp;", " ")
 			item['price'] = item['price'].replace("&euro;", "EURO")
 			item['price'] = item['price'].replace("&pound;", "POUND")
-			item['breadcrumbs'] = "".join(data_form.select('.//input[@name="comment"]/@value').extract())
+			item['breadcrumbs'] = " > ".join(filter(lambda a: a.lower() not in ['clearance', 'sale'], hxs.select('//div[@id="breadcrumb"]/a/text()').extract()))
+			if not item['breadcrumbs']:
+				item['breadcrumbs'] = "".join(data_form.select('.//input[@name="comment"]/@value').extract())
 			item['images'] = []
 			item['image_urls'] = []
 			item_unique_string = "%s--%s--%s" % (item['title'], item['price'], item['breadcrumbs'])
